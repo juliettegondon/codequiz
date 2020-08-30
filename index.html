@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> coding quiz </title>
+    <link rel="stylesheet" href="./develop/style.css" />
+    <link rel="shortcut icon" href="./develop/images/fav1.ico" />
+      
+  </head>
+<body>
+    <header>
+        <nav class="navbar">
+          <a class="navbar-brand"></a>
+          <button class="countbtn"> time:</button>
+        </nav>
+      </header>
+      
+    <div class="container"><div class="container">
+        <div class="card border-0 shadow my-5">
+          <div class="card-body p-5">
+            <h1 class="font-weight-light"> coding quiz! </h1>
+            <div style="height: 40px"></div>
+      
+      <div id="question-container" class="hide">
+        <div class="number-of-question-text">Question # <span id="current-question">Y</span> of <span id="all-questions2">X</span></div>
+    <div id="question">question</div>
+    <div id="answer-buttons" class = "btn-grid"> 
+        <button class="btn" answer 1></button>
+        <button class="btn" answer 2></button>
+        <button class="btn" answer 3></button>
+        <button class="btn" answer 4></button>
+    </div>
+    </div>
+      <div class="controls">
+          <button id="start-btn" class="start-btn btn"> start </button>
+          <button id="next-btn" class="next-btn btn hide"> next </button>
+      </div>
+    </div>
+    <script src="./develop/script.js"></script>
+  </body>
+</html>
